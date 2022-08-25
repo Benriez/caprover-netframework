@@ -5,12 +5,12 @@
     "RUN apt-get update && apt-get install -y dotnet6 ca-certificates",
     "WORKDIR /source",
     "COPY . .",
-    "RUN dotnet publish -c Release -o /app",
+    "RUN dotnet publish -c Release -o /MyApp",
     "FROM ubuntu/dotnet-runtime:6.0-22.04_beta",
     "WORKDIR /app",
     "COPY --from=builder /app ./",
     "ENV PORT 8080",
     "EXPOSE 8080",
-    "ENTRYPOINT ['dotnet', '/app/Fibonacci.dll']"
+    "ENTRYPOINT ['dotnet', '/MyApp/Programm.cs']"
   ]
 }
