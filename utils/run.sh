@@ -1,2 +1,2 @@
-cd Myapp
+cd ./Myapp
 dotnet run
