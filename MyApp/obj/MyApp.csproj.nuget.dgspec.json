@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benny/Documents/Code/docket-net/MyApp/MyApp.csproj": {}
+    "/Users/benny/Documents/Code/docker-net/MyApp/MyApp.csproj": {}
   },
   "projects": {
-    "/Users/benny/Documents/Code/docket-net/MyApp/MyApp.csproj": {
+    "/Users/benny/Documents/Code/docker-net/MyApp/MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benny/Documents/Code/docket-net/MyApp/MyApp.csproj",
+        "projectUniqueName": "/Users/benny/Documents/Code/docker-net/MyApp/MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "/Users/benny/Documents/Code/docket-net/MyApp/MyApp.csproj",
+        "projectPath": "/Users/benny/Documents/Code/docker-net/MyApp/MyApp.csproj",
         "packagesPath": "/Users/benny/.nuget/packages/",
-        "outputPath": "/Users/benny/Documents/Code/docket-net/MyApp/obj/",
+        "outputPath": "/Users/benny/Documents/Code/docker-net/MyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/benny/.nuget/NuGet/NuGet.Config"

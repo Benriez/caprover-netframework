@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rzi1rRmjEwrPeK7tT1opUtuTTsTK8cGXp+SWV9738BgKXp/SWzcBl89RMh2FuNQ0ejFWYj+SB+8QDQaHN0YJmg==",
+  "dgSpecHash": "AXlCKlV4dAjgOjStHYp6qaM/a4bKEVlY9QHeNgiucqyQI3AYUdyXgAN9cp3R0H2hZ27Zlj3lzIn8PLG+vKlVjA==",
   "success": true,
-  "projectFilePath": "/Users/benny/Documents/Code/docket-net/MyApp/MyApp.csproj",
+  "projectFilePath": "/Users/benny/Documents/Code/docker-net/MyApp/MyApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
