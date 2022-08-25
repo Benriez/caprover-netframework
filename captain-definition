@@ -6,6 +6,6 @@
     "WORKDIR /usr/src/app",
     "COPY . /usr/src/app",
     "EXPOSE 5000",
-    "CMD sh /usr/src/utils/run.sh"
+    "CMD sh /utils/run.sh"
   ]
 }
