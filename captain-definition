@@ -1,16 +1,19 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
+    # build
     "FROM ubuntu:22.04 AS builder",
     "RUN apt-get update && apt-get install -y dotnet6 ca-certificates",
     "WORKDIR /source",
     "COPY . .",
-    "RUN dotnet publish -c Release -o /MyApp",
-    "FROM ubuntu/dotnet-runtime:6.0-22.04_beta",
-    "WORKDIR /app",
-    "COPY --from=builder /app ./",
-    "ENV PORT 8080",
-    "EXPOSE 8080",
-    "ENTRYPOINT ['dotnet', '/MyApp/Programm.cs']"
+    "RUN dotnet publish -c Release -o /app",
+
+    # run
+    # "FROM ubuntu/dotnet-runtime:6.0-22.04_beta",
+    # "WORKDIR /app",
+    # "COPY --from=builder /app ./",
+    # "ENV PORT 8080",
+    # "EXPOSE 8080",
+    # "ENTRYPOINT ['dotnet', '/MyApp/Programm.cs']"
   ]
 }
