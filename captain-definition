@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
-    "FROM microsoft/dotnet:latest",
+    "FROM mcr.microsoft.com/dotnet/sdk:6.0,
     "RUN mkdir -p /usr/src/books",
     "WORKDIR /usr/src/books",
     "COPY . /usr/src/books",
