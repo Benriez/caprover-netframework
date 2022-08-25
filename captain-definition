@@ -5,7 +5,6 @@
     "RUN mkdir -p /usr/src/books",
     "WORKDIR /usr/src/books",
     "COPY . /usr/src/books",
-    "RUN dotnet restore",
     "EXPOSE 5000",
     "CMD [ 'dotnet', 'run' ]"
   ]
