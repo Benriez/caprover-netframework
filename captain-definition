@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
-    "FROM mcr.microsoft.com/windows/servercore:lts2019",
-    "WORKDIR /app",
-    "COPY *.csproj .",
-    "RUN dotnet restore",
+    "FROM ubuntu:22.04 AS builder",
+    "RUN apt-get update && apt-get install -y dotnet6 ca-certificates",
+    "WORKDIR /source",
     "COPY . .",
+    "RUN dotnet publish -c Release -o /app",
+    "FROM ubuntu/dotnet-runtime:6.0-22.04_beta",
     "WORKDIR /app",
-    "RUN dotnet publish -c Release -o out --no-restore",
-    "FROM mcr.microsoft.com/dotnet/framework/runtime:4.8 AS runtime",
-    "WORKDIR /app",
-    "COPY --from=build /app/out ./",
-    "ENTRYPOINT ['dotnetapp.exe']"
+    "COPY --from=builder /app ./",
+    "ENV PORT 8080",
+    "EXPOSE 8080",
+    "ENTRYPOINT ['dotnet', '/app/Fibonacci.dll']"
   ]
 }
