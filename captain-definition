@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "dockerfileLines": [
     "FROM mcr.microsoft.com/dotnet/sdk:6.0",
-    "RUN mkdir -p /usr/src/books",
-    "WORKDIR /usr/src/books",
-    "COPY . /usr/src/books",
+    "RUN mkdir -p /usr/src/app",
+    "WORKDIR /usr/src/app",
+    "COPY . /usr/src/app",
     "EXPOSE 5000",
-    "CMD [ 'dotnet', 'run' ]"
+    "CMD sh /usr/src/utils/run.sh"
   ]
 }

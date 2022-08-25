@@ -1,0 +1,2 @@
+cd Myapp
+dotnet run
