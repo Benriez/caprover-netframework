@@ -8,12 +8,6 @@
     "COPY . .",
     "RUN dotnet publish -c Release -o /app"
 
-    # run
-    # "FROM ubuntu/dotnet-runtime:6.0-22.04_beta",
-    # "WORKDIR /app",
-    # "COPY --from=builder /app ./",
-    # "ENV PORT 8080",
-    # "EXPOSE 8080",
-    # "ENTRYPOINT ['dotnet', '/MyApp/Programm.cs']"
+
   ]
 }
