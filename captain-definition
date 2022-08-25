@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
-    # build
     "FROM ubuntu:22.04 AS builder",
     "RUN apt-get update && apt-get install -y dotnet6 ca-certificates",
     "WORKDIR /source",
