@@ -1,0 +1,15 @@
+/Users/benny/Documents/Code/docket-net/MyApp/bin/Debug/net6.0/MyApp
+/Users/benny/Documents/Code/docket-net/MyApp/bin/Debug/net6.0/MyApp.deps.json
+/Users/benny/Documents/Code/docket-net/MyApp/bin/Debug/net6.0/MyApp.runtimeconfig.json
+/Users/benny/Documents/Code/docket-net/MyApp/bin/Debug/net6.0/MyApp.dll
+/Users/benny/Documents/Code/docket-net/MyApp/bin/Debug/net6.0/MyApp.pdb
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.csproj.AssemblyReference.cache
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfoInputs.cache
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfo.cs
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.csproj.CoreCompileInputs.cache
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.dll
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/refint/MyApp.dll
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.pdb
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/MyApp.genruntimeconfig.cache
+/Users/benny/Documents/Code/docket-net/MyApp/obj/Debug/net6.0/ref/MyApp.dll
